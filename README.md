@@ -1,6 +1,6 @@
-# Quick Frontend Kit
+# Quick Static Page Kit
 
-A quick starter kit that utilizes modern web technologies for frontend app using. It is designed to setup as simple as possible to extend easily, and to be used for different cases.
+A quick starter kit that utilizes modern web technologies for static app. It is designed to setup as simple as possible to extend easily, and to be used for different cases.
 
 
 ### Requirements
