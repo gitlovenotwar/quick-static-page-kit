@@ -1,0 +1,54 @@
+@import './_variables.css';
+
+/**
+  * Declare all global classes heres inside block 
+  * ex. .button {...}
+  */
+:global {
+  body,
+  html {
+    font-family: 'Lato';
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: initial;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .noselect {
+    user-select: none;
+  }
+
+  .h-0 { height: 0px; }
+  .w-0 { width: 0px; }
+  
+  ::placeholder {
+    opacity: 0.5;
+    color: inherit;
+  }
+  
+  .form-control {
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  
+  form {
+    button[type=hidden] {
+      display: none;
+    }
+  }
+
+  .reverse {
+    transform: rotateZ(180deg);
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "quick-static-page-kit",
+  "version": "1.0.0",
+  "description": "A quick full starter kit that utilizes the modern kit for a full stack app. It is designed to as setup as simple as possible to extend for different uses.",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.1",
+    "@babel/plugin-transform-classes": "^7.9.5",
+    "@babel/polyfill": "^7.8.7",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^1.0.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "css-loader": "^1.0.1",
+    "dotenv-webpack": "^1.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^2.3.6",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {},
+  "engineStrict": true,
+  "engines": {
+    "node": "12.13.x"
+  }
+}
